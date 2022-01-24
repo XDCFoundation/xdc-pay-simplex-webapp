@@ -1,5 +1,8 @@
 <div id="simplex-form"></div>
 <script src='https://iframe.simplex-affiliates.com/form.js' type="text/javascript"></script>
 <script>
-    window.simplex.createForm();
+    const promise = window.simplex.createForm();
+    promise.then(function (data) {
+        window.simplex.updateCryptoCurrency("XDC");
+    })
 </script>
