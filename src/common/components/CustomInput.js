@@ -1,7 +1,6 @@
 import React from "react";
-import BaseComponent from "../../modules/baseComponent";
 
-class CustomInput extends BaseComponent {
+class CustomInput extends React.Component {
     constructor(props) {
         super(props)
     }
