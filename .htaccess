@@ -12,3 +12,11 @@
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
 </IfModule>
+
+<system.webServer>
+     <httpProtocol allowKeepAlive="true" >
+       <customHeaders>
+         <add name="X-Frame-Options" value="ALLOW-FROM URL https://sandbox.test-simplexcc.com/" />
+       </customHeaders>
+     </httpProtocol>
+ </system.webServer>
