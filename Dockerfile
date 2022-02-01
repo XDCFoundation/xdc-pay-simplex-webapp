@@ -5,7 +5,7 @@ RUN a2enmod rewrite
 RUN apt-get update; apt-get -y install gnupg
 
 RUN echo 'Header always set X-Frame-Options: "allow-from https://sandbox.test-simplexcc.com/"' >> /etc/apache2/conf-enabled/security.conf
-RUN echo 'Header set Content-Security-Policy: "frame-ancestors self https://sandbox.test-simplexcc.com/' >> /etc/apache2/conf-enabled/security.conf
+RUN echo `Header set Content-Security-Policy: "frame-ancestors 'self' https://sandbox.test-simplexcc.com/"` >> /etc/apache2/conf-enabled/security.conf
 
 WORKDIR /var/www/html
 COPY . /var/www/html/temp
