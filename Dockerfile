@@ -15,6 +15,6 @@ RUN mv /var/www/html/temp/.htaccess /var/www/html
 RUN rm -rf /var/www/html/temp
 
 RUN chmod 777 -R /var/www/html/
-
+RUN a2enmod headers
 EXPOSE 80
 CMD ["/usr/sbin/apache2ctl", "-D",  "FOREGROUND"]
