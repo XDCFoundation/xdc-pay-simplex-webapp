@@ -4,6 +4,8 @@ RUN a2enmod rewrite
 # Install dependencies
 RUN apt-get update; apt-get -y install gnupg
 
+RUN echo 'Header set X-Frame-Options: "ALLOW-FROM URL https://sandbox.test-simplexcc.com/"' >> /etc/apache2/conf-enabled/security.conf
+
 WORKDIR /var/www/html
 COPY . /var/www/html/temp
 RUN cd /var/www/html/temp
