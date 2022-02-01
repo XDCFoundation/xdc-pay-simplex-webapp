@@ -1,6 +1,6 @@
 # X-Frame-Options
 <IfModule mod_headers.c>
-	Header set X-Frame-Options "ALLOW-FROM URL https://sandbox.test-simplexcc.com/"
+	Header set X-Frame-Options: "ALLOW-FROM URL https://sandbox.test-simplexcc.com/"
 </IfModule>
 
 <IfModule mod_rewrite.c>
