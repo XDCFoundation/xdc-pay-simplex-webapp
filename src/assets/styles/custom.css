@@ -32,3 +32,8 @@ iframe {
     flex-direction: column;
     justify-content: center;
 }
+.simplex-continue-button {
+    background-color: #2149b9 !important;
+    color: white !important;
+    border: none !important;
+}
