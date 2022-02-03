@@ -9,7 +9,7 @@
     <meta name="description" content="XDC Pay-Simplex"/>
     <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <script src="https://checkout.simplexcc.com/splx.js"></script>
+<!--    <script src="https://checkout.simplexcc.com/splx.js"></script>-->
     <title>XDC Pay</title>
     <style id="simplex-css">
         .simplex-continue-button {
@@ -30,7 +30,7 @@
 </head>
 <body>
 <div id="simplex-form" class="simplex"></div>
-<script src='https://iframe.simplex-affiliates.com/form.js' type="text/javascript"></script>
+<script src='https://iframe.sandbox.test-simplexcc.com/form.js' type="text/javascript">
 <script>
     const promise = window.simplex.createForm();
     promise.then(function (data) {
