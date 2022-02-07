@@ -55,6 +55,8 @@ body {
     color: #101010;
     font-size: 30px;
     gap: 3px;
+    font-weight: 600;
+    align-items: center;
 }
 
 .xdc-logo {
