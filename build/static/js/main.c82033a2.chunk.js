@@ -1,0 +1,2 @@
+(window["webpackJsonpxdcpay-simplex-web-app"]=window["webpackJsonpxdcpay-simplex-web-app"]||[]).push([[0],[function(o,n,e){o.exports=e(2)},function(o,n,e){},function(o,n,e){"use strict";e.r(n);Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));e(1);"serviceWorker"in navigator&&navigator.serviceWorker.ready.then((function(o){o.unregister()}))}],[[0,1,2]]]);
+//# sourceMappingURL=main.c82033a2.chunk.js.map
