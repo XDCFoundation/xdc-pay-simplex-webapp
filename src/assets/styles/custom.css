@@ -1,7 +1,19 @@
-@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 body {
     background-color: #ffffff;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 body, button, html, input, select, textarea, div, p, span, label {
@@ -22,10 +34,11 @@ body {
 
 .simplex {
     width: 100%;
-    height: 320px;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 
@@ -43,6 +56,8 @@ body {
     color: #101010;
     font-size: 30px;
     gap: 3px;
+    font-weight: 600;
+    align-items: center;
 }
 
 .xdc-logo {
@@ -58,11 +73,9 @@ body {
 }
 
 .simplex-form-wrapper-top {
-    max-width: 600px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    min-height: 240px;
     margin: auto;
     border-radius: 16px;
     padding: 43px 24px 33px;
@@ -80,5 +93,5 @@ body {
 
 .terms-condition {
     font-size: 15px;
-    margin: auto;
+    margin: 10px auto;
 }
