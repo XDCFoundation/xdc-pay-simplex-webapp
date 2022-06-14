@@ -5,7 +5,7 @@
 This webapp basically handle all the Admin operations.
 like:
 * Buy XDC Tokens
-* etc.
+
 ### Steps for local setup ###
 
 * Clone the repository in your local system
